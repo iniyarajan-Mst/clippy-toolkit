@@ -1,0 +1,13 @@
+Package: clippysearch
+Priority: optional
+Section: System
+Maintainer: Ryan Petrich (rated-r) <rpetrich@gmail.com>
+Architecture: iphoneos-arm
+Version: 0.1-1
+Description: Search plugin for Clippy
+Depiction: http://booleanmagic.com/cydia/clippysearch/
+Homepage: http://booleanmagic.com/cydia/clippysearch/
+Name: Clippy Search
+Depends: clippy (>= 0.95)
+Author: Ryan Petrich (rated-r) <rpetrich@gmail.com>
+Icon: file:///Library/Clippy/cydia-icon.png
