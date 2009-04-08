@@ -1,0 +1,10 @@
+Package: locklight
+Priority: optional
+Section: System
+Architecture: iphoneos-arm
+Version: 0.1
+Description: Flashlight from the lockscreen
+Depiction: http://booleanmagic.com/cydia/locklight/
+Name: LockLight
+Depends: mobilesubstrate
+Author: Ryan Petrich <rpetrich@gmail.com>
