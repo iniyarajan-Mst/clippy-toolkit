@@ -1,0 +1,55 @@
+{
+"Preview" = "Preview";
+"Cut" = "Cut";
+"Copy" = "Copy";
+"Paste" = "Paste";
+"Stack" = "Stack";
+"Stacks" = "Stacks";
+"Search" = "Search";
+"Dial" = "Dial";
+"Scroll to Top" = "Scroll to Top";
+"Scroll to Bottom" = "Scroll to Bottom";
+"Scroll" = "Scroll";
+"Debug" = "Debug";
+"Debug Info" = "Debug Info";
+"Close" = "Close";
+"OK" = "OK";
+"Clippy Error" = "Clippy Error";
+"Copied To Clipboard:" = "Copied To Clipboard:";
+"Copy To Clipboard:" = "Copy To Clipboard:";
+"Edit Stack" = "Edit Stack";
+"Clipboard Stack Is Empty" = "Clipboard Stack Is Empty";
+"Unable to send clipboard text!" = "Unable to send clipboard text!";
+"Clippy Beta has expired." = "Clippy Beta has expired.";
+"Please upgrade" = "Please upgrade";
+"Upgrade" = "Upgrade";
+"Clipboard Stack" = "Clipboard Stack";
+"Clear" = "Clear";
+"Confirm" = "Confirm";
+
+"Enabled Applications" = "Enabled Applications";
+"Native Apps" = "Native Apps";
+"App Store Apps" = "App Store Apps";
+"Post-selection Activation Sources" = "Post-selection Activation Sources";
+"Text Fields" = "Text Fields";
+"Web Fields" = "Web Fields";
+"Hold Activation Sources" = "Hold Activation Sources";
+"Table Cells" = "Table Cells";
+"Labels" = "Labels";
+"Web Views" = "Web Views";
+".?123 on Keyboard" = ".?123 on Keyboard";
+"Hold Time" = "Hold Time";
+"Animated" = "Animated";
+"Enabled Plugins" = "Enabled Plugins";
+"Respring for changes to take full effect." = "Respring for changes to take full effect.";
+"Respring" = "Respring";
+
+"Respring Device" = "Respring Device";
+"Text Views" = "Text Views";
+"Donate" = "Donate";
+"Donate with PayPal" = "Donate with PayPal";
+
+"Delete" = "Delete";
+
+"$TRANSLATION_ABOUT_LABEL$" = "";
+}

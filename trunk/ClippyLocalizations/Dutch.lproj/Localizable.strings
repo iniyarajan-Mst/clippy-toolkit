@@ -1,0 +1,29 @@
+﻿{
+"Disabled inside Cydia." = "Disabled in Cydia.";
+"cut" = "knippen";
+"copy" = "kopiëren";
+"paste" = "plakken";
+"stack" = "stack";
+"stacks" = "stacks";
+"close" = "sluiten";
+"Cut" = "Knippen";
+"Copy" = "Kopiëren";
+"Paste" = "Plakken";
+"Stack" = "Stack";
+"Stacks" = "Stacks";
+"Close" = "Sluiten";
+"Clippy Error" = "Error";
+"Copied To Clipboard:" = "Gekopieërd naar het klembord:";
+"Copy To Clipboard:" = "Gekopieërd naar de stack:";
+"OK" = "OK";
+"Edit Stack" = "Wijzig stack";
+"Clipboard Stack Is Empty" = "Lege stack";
+"Unable to send clipboard text!" = "Onmogelijk om de tekst te kopiëren";
+"Clippy Beta has expired." = "De beta van Clippy is afgelopen.";
+"Please upgrade" = "Upgrade aub";
+"Clipboard Stack" = "Stack";
+"Clear" = "Wis";
+"Confirm" = "Bevestig";
+
+"$TRANSLATION_ABOUT_LABEL$" = "Translated by Tim Ysewyn <timysewyn@gmail.com>";
+}

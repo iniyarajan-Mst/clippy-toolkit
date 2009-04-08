@@ -1,0 +1,32 @@
+﻿{
+"Disabled inside Cydia." = "Deshabilitado en Cydia.";
+"cut" = "cortar";
+"copy" = "copiar";
+"paste" = "pegar";
+"stack" = "pila";
+"stacks" = "pilas";
+"search" = "buscar";
+"close" = "cerrar";
+"Cut" = "Cortar";
+"Copy" = "Copiar";
+"Paste" = "Pegar";
+"Stack" = "Pila";
+"Stacks" = "Pilas";
+"Search" = "Buscar";
+"Close" = "Cerrar";
+"Clippy Error" = "Error de Clippy";
+"Copied To Clipboard:" = "Copiado en el Portapapeles:";
+"Copy To Clipboard:" = "Copiar en el Portapapeles:";
+"OK" = "OK";
+"Edit Stack" = "Editar Pila";
+"Clipboard Stack Is Empty" = "El Portapapeles Está Vacío";
+"Unable to send clipboard text!" = "No se puede enviar el texto del portapapeles!";
+"Clippy Beta has expired." = "Clippy Beta ha expirado.";
+"Please upgrade" = "Porfavor, actualiza";
+"Clipboard Stack" = "Pila del Portapapeles";
+"Clear" = "Borrar";
+"Confirm" = "Confirmar";
+"Close" = "Cerrar";
+
+"$TRANSLATION_ABOUT_LABEL$" = "Translated by Lluís Molins <lluis@degirona.net>";
+}

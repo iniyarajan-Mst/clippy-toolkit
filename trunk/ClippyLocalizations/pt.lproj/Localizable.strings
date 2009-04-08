@@ -1,0 +1,30 @@
+﻿{
+"Disabled inside Cydia." = "Desabilitado no Cydia.";
+"cut" = "recortar";
+"copy" = "copiar";
+"paste" = "colar";
+"stack" = "pilha";
+"stacks" = "pilhas";
+"search" = "buscar";
+"close" = "fechar";
+"Cut" = "Recortar";
+"Copy" = "Copiar";
+"Paste" = "Colar";
+"Stack" = "Pilha";
+"Stacks" = "Pilhas";
+"Search" = "Buscar";
+"Close" = "Fechar";
+"Clippy Error" = "Erro do Clippy";
+"Copied To Clipboard:" = "Copiado para a Área de Transferência:";
+"Copy To Clipboard:" = "Copiar para Área de Transferência:";
+"OK" = "OK";
+"Edit Stack" = "Editar Pilha";
+"Clipboard Stack Is Empty" = "Pilha Está Vazia";
+"Unable to send clipboard text!" = "Não foi possível enviar o texto da Área de Transferência!";
+"Clippy Beta has expired." = "Clippy Beta expirou.";
+"Please upgrade" = "Por favor, atualize";
+"Clipboard Stack" = "Pilha da Área de Transferência";
+"Clear" = "Apagar";
+"Confirm" = "Confirmar";
+"$TRANSLATION_ABOUT_LABEL$" = "André Pinto <andredsp@gmail.com>";
+}

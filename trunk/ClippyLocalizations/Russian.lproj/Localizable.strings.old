@@ -1,0 +1,29 @@
+{
+"Disabled inside Cydia." = "Отключено в Cydia";
+"cut" = "вырезать";
+"copy" = "копир.";
+"paste" = "вставить";
+"stack" = "стек";
+"stacks" = "стеки";
+"close" = "закрыть";
+"Cut" = "Вырезать";
+"Copy" = "Копир.";
+"Paste" = "Вставить";
+"Stack" = "Стек";
+"Stacks" = "Стеки";
+"Close" = "Закрыть";
+"Clippy Error" = "Ошибка Clippy";
+"Copied To Clipboard:" = "Скопировано:";
+"Copy To Clipboard:" = "Копировать в буфер:";
+"OK" = "ОК";
+"Edit Stack" = "Редактирование стека";
+"Clipboard Stack Is Empty" = "Стек пуст";
+"Unable to send clipboard text!" = "Не удалось отправить текст буфера!";
+"Clippy Beta has expired." = "Копия Clippy Beta недействительна.";
+"Please upgrade" = "Пожалуйста, обновитесь";
+"Clipboard Stack" = "Стек буфера";
+"Clear" = "Очистить?";
+"Confirm" = "Подтвердите";
+"Close" = "Закрыть";
+"$TRANSLATION_ABOUT_LABEL$" = "ZeFiR <zefirko@gmail.com>";
+}

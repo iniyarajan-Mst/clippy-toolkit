@@ -1,0 +1,55 @@
+{
+"Preview" = "Vista previa";
+"Cut" = "Cortar";
+"Copy" = "Copiar";
+"Paste" = "Pegar";
+"Stack" = "Pila";
+"Stacks" = "Pilas";
+"Search" = "Buscar";
+"Dial" = "Llamar";
+"Delete" = "Borrar";
+"Scroll to Top" = "Ir al principio";
+"Scroll to Bottom" = "Ir al final";
+"Scroll" = "Ir al ...";
+"Debug" = "Depurar";
+"Debug Info" = "Info Depurar";
+"Close" = "Cerrar";
+"OK" = "OK";
+"Clippy Error" = "Error de Clippy";
+"Copied To Clipboard:" = "Copiado al portapapeles:";
+"Copy To Clipboard:" = "Copiar al portapapeles:";
+"Edit Stack" = "Editar pila";
+"Clipboard Stack Is Empty" = "Pila del portapapeles vacia";
+"Unable to send clipboard text!" = "No es possible enviar texto del portapapeles!";
+"Clippy Beta has expired." = "Clippy Beta ha expirado.";
+"Please upgrade" = "Por favor, actualice";
+"Upgrade" = "Actualizar";
+"Clipboard Stack" = "Pila del portapapeles";
+"Clear" = "Limpiar";
+"Confirm" = "Confirmar";
+
+"Enabled Applications" = "Activar en aplicaciones:";
+"Native Apps" = "Nativas";
+"App Store Apps" = "De la AppStore";
+"Post-selection Activation Sources" = "Activar después de seleccionar en:";
+"Text Fields" = "Campos de texto";
+"Web Fields" = "Campos de web";
+"Hold Activation Sources" = "Activar dejando presionado en:";
+"Table Cells" = "Celdas de tabla";
+"Labels" = "Etiquetas";
+"Web Views" = "Vistas de web";
+".?123 on Keyboard" = ".?123 en el teclado";
+"Hold Time" = "Tiempo de presión";
+"Animated" = "Animado";
+"Enabled Plugins" = "Plugins activos";
+"Respring for changes to take full effect." = "Haga respring para que los cambios tengan efecto total.";
+"Respring" = "Respring";
+
+"Respring Device" = "Hacer respring al dispositivo";
+"Text Views" = "Vistas de texto";
+"Donate" = "Donar";
+"Donate with PayPal" = "Donar con PayPal";
+
+
+"$TRANSLATION_ABOUT_LABEL$" = "Traducido por ErMasLoko";
+}

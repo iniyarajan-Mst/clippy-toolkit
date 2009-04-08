@@ -1,0 +1,55 @@
+{
+"Preview" = "Anteprima";
+"Cut" = "Taglia";
+"Copy" = "Copia";
+"Paste" = "Incolla";
+"Stack" = "Pila";
+"Stacks" = "Pile";
+"Search" = "Cerca";
+"Dial" = "Chiama";
+"Scroll to Top" = "Scorri sù";
+"Scroll to Bottom" = "Scorri giù";
+"Scroll" = "Scorri";
+"Debug" = "Debug";
+"Debug Info" = "Informazioni di debug";
+"Close" = "Chiudi";
+"OK" = "OK";
+"Clippy Error" = "Errore Clippy";
+"Copied To Clipboard:" = "Copiato negli appunti:";
+"Copy To Clipboard:" = "Copia negli appunti:";
+"Edit Stack" = "Modifica pila";
+"Clipboard Stack Is Empty" = "La pila degli appunti è vuota";
+"Unable to send clipboard text!" = "Impossibile inviare il testo appuntato!";
+"Clippy Beta has expired." = "La beta di Clippy è scaduta.";
+"Please upgrade" = "Perfavore aggiorna";
+"Upgrade" = "Aggiorna";
+"Clipboard Stack" = "Pila degli appunti";
+"Clear" = "Pulisci";
+"Confirm" = "Conferma";
+
+"Enabled Applications" = "Abilita le applicazioni";
+"Native Apps" = "App. Native";
+"App Store Apps" = "App. AppStore";
+"Post-selection Activation Sources" = "Attivazione dopo la selezione";
+"Text Fields" = "Zone testo";
+"Text Views" = "Vista testo";
+"Web Fields" = "Zone web";
+"Hold Activation Sources" = "Attivazione dopo la pressione";
+"Table Cells" = "Celle tabelle";
+"Labels" = "Descrizioni";
+"Web Views" = "Vista web";
+".?123 on Keyboard" = ".?123 sulla tastiera";
+"Hold Time" = "Tempo di pressione";
+"Animated" = "Animazione";
+"Enabled Plugins" = "Abilita i plugin";
+"Respring for changes to take full effect." = "E' necessario eseguire un respring del dispositivo per applicare le modifiche.";
+"Respring" = "Respring";
+"Respring Device" = "Esegui il respring del dispositivo";
+
+"Donate" = "Dona";
+"Donate with PayPal" = "Dona con PayPal";
+
+"Delete" = "Elimina";
+
+"$TRANSLATION_ABOUT_LABEL$" = "Tradotto da Sagitt <sagitt@email.it>";
+}

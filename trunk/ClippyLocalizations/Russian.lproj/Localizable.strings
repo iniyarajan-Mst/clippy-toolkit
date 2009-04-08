@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled inside Cydia.</key>
+	<string>Отключено в Cydia</string>
+	<key>cut</key>
+	<string>вырезать</string>
+	<key>copy</key>
+	<string>копировать</string>
+	<key>paste</key>
+	<string>вставить</string>
+	<key>stack</key>
+	<string>буфер</string>
+	<key>stacks</key>
+	<string>буфер</string>
+	<key>close</key>
+	<string>закрыть</string>
+	<key>Cut</key>
+	<string>Вырезать</string>
+	<key>Copy</key>
+	<string>Копировать</string>
+	<key>Paste</key>
+	<string>Вставить</string>
+	<key>Stack</key>
+	<string>Буфер обмена</string>
+	<key>Stacks</key>
+	<string>Буфер обмена</string>
+	<key>Close</key>
+	<string>Закрыть</string>
+	<key>Clippy Error</key>
+	<string>Ошибка Clippy</string>
+	<key>Copied To Clipboard:</key>
+	<string>Скопировано:</string>
+	<key>Copy To Clipboard:</key>
+	<string>Копировать в буфер:</string>
+	<key>OK</key>
+	<string>OK</string>
+	<key>Edit Stack</key>
+	<string>Редактирование буфера:</string>
+	<key>Clipboard Stack Is Empty</key>
+	<string>В буфер пусто:</string>
+	<key>Unable to send clipboard text!</key>
+	<string>Не удалось отправить текст буфера!</string>
+	<key>Clippy Beta has expired.</key>
+	<string>Копия Clippy Beta недействительна.</string>
+	<key>Please upgrade</key>
+	<string>Пожалуйста, обновитесь</string>
+	<key>Clipboard Stack</key>
+	<string>Буфер обмена</string>
+	<key>Clear</key>
+	<string>Очистить</string>
+	<key>Confirm</key>
+	<string>Подтвердить</string>
+	<key>$TRANSLATION_ABOUT_LABEL$</key>
+	<string>Translated by lexx241 &lt;lexx241@yandex.ru&gt;</string>
+</dict>
+</plist>

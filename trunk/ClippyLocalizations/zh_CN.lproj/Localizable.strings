@@ -1,0 +1,55 @@
+{
+"Preview" = "预览";
+"Cut" = "剪切";
+"Copy" = "复制";
+"Paste" = "粘贴";
+"Stack" = "剪贴板";
+"Stacks" = "剪贴板";
+"Search" = "搜索";
+"Dial" = "呼叫";
+"Scroll to Top" = "滚至顶部";
+"Scroll to Bottom" = "滚至底部";
+"Scroll" = "滚动";
+"Debug" = "调试";
+"Debug Info" = "调试信息";
+"Close" = "关闭";
+"OK" = "确定";
+"Clippy Error" = "剪贴板错误";
+"Copied To Clipboard:" = "已复制至剪贴板:";
+"Copy To Clipboard:" = "复制至剪贴板:";
+"Edit Stack" = "查看剪贴板";
+"Clipboard Stack Is Empty" = "剪贴板是空的";
+"Unable to send clipboard text!" = "无法发送剪贴板内的文本!";
+"Clippy Beta has expired." = "Clippy Beta已过期.";
+"Please upgrade" = "请更新至最新版本";
+"Upgrade" = "更新";
+"Clipboard Stack" = "剪贴板";
+"Clear" = "清空";
+"Confirm" = "确认";
+
+"Enabled Applications" = "启用的应用程序";
+"Native Apps" = "本地原生程序";
+"App Store Apps" = "软件商店程序";
+"Post-selection Activation Sources" = "启用的输入区域";
+"Text Fields" = "输入文本";
+"Web Fields" = "网页表单";
+"Hold Activation Sources" = "启用的触发区域";
+"Table Cells" = "表格";
+"Labels" = "标签";
+"Web Views" = "网页";
+"Text Views" = "文本";
+".?123 on Keyboard" = ".?123键";
+"Hold Time" = "触发延时";
+"Animated" = "动画效果";
+"Enabled Plugins" = "启用的插件";
+"Respring for changes to take full effect." = "注销以使改动生效.";
+"Respring" = "注销";
+
+"Respring Device" = "立即生效新设置";
+"Donate" = "捐助";
+"Donate with PayPal" = "通过PayPal捐助";
+
+"Delete" = "删除";
+
+"$TRANSLATION_ABOUT_LABEL$" = "简体中文化 by Swfdong@CNPDA";
+}
