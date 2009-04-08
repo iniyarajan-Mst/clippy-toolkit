@@ -1,0 +1,29 @@
+﻿{
+    Clear = "\U05e0\U05e7\U05d4";
+    "Clipboard Stack" = "\U05de\U05d0\U05d2\U05e8 \U05d4\U05dc\U05d5\U05d7";
+    "Clipboard Stack Is Empty" = "\U05d4\U05de\U05d0\U05d2\U05e8 \U05e8\U05d9\U05e7";
+    "Clippy Beta has expired." = "Clippy Beta has expired.";
+    "Clippy Error" = "\U05e9\U05d2\U05d9\U05d0\U05d4 \U05d1Clippy";
+    Close = "\U05e1\U05d2\U05d5\U05e8";
+    Confirm = "\U05d0\U05e9\U05e8";
+    "Copied To Clipboard:" = "\U05d4\U05d5\U05e2\U05ea\U05e7 \U05dc\U05dc\U05d5\U05d7:";
+    Copy = "\U05d4\U05e2\U05ea\U05e7";
+    "Copy To Clipboard:" = "\U05d4\U05e2\U05ea\U05e7 \U05dc\U05dc\U05d5\U05d7";
+    Cut = "\U05d2\U05d6\U05d5\U05e8";
+    "Disabled inside Cydia." = "\U05dc\U05d0 \U05d6\U05de\U05d9\U05df \U05d1Cydia.";
+    "Edit Stack" = "\U05e2\U05e8\U05d5\U05da \U05de\U05d0\U05d2\U05e8";
+    OK = "\U05d0\U05d5\U05e7\U05d9\U05d9";
+    Paste = "\U05d4\U05d3\U05d1\U05e7";
+    "Please upgrade" = "\U05e9\U05d3\U05e8\U05d2 \U05d1\U05d1\U05e7\U05e9\U05d4";
+    Stack = "\U05de\U05d0\U05d2\U05e8";
+    Stacks = "\U05de\U05d0\U05d2\U05e8\U05d9\U05dd";
+    "Unable to send clipboard text!" = "\U05dc\U05d0 \U05e0\U05d9\U05ea\U05df \U05dc\U05e9\U05dc\U05d5\U05d7 \U05d8\U05e1\U05e7\U05d8 \U05d0\U05dc \U05d4\U05dc\U05d5\U05d7!";
+    close = "\U05e1\U05d2\U05d5\U05e8";
+    copy = "\U05d4\U05e2\U05ea\U05e7";
+    cut = "\U05d2\U05d6\U05d5\U05e8";
+    paste = "\U05d4\U05d3\U05d1\U05e7";
+    stack = "\U05de\U05d0\U05d2\U05e8";
+    stacks = "\U05de\U05d0\U05d2\U05e8\U05d9\U05dd";
+    
+	"$TRANSLATION_ABOUT_LABEL$" = "Translated by Yotam Baeloha <yoootam@gmail.com>";
+}

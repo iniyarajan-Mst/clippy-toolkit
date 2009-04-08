@@ -1,0 +1,24 @@
+{
+"Cut" = "قـــص";
+"Copy" = "نـسـخ";
+"Paste" = "لـصـق";
+"Stack" = "الحافظة";
+"Stacks" = "المحفوظات";
+"Search" = "بحث";
+"Dial" = "اتصال";
+"Close" = "إغلاق";
+"OK" = "تــم";
+"Clippy Error" = "خــطــأ";
+"Copied To Clipboard:" = "تم النسخ للحافظة:";
+"Copy To Clipboard:" = "نسخ للحافظة:";
+"Edit Stack" = "تعديل المحفوظ";
+"Clipboard Stack Is Empty" = "قائمة المحفوظات فارغة";
+"Unable to send clipboard text!" = "غير قادر على ارسال النص للحافظة!";
+"Clippy Beta has expired." = "تم انتهاء الفترة التجريبية للبرنامج.";
+"Please upgrade" = "الرجاء تحديث البرنامج";
+"Upgrade" = "تحديث";
+"Clipboard Stack" = "قائمة المحفوظات";
+"Clear" = "مسح";
+"Confirm" = "تأكيد";
+"$TRANSLATION_ABOUT_LABEL$" = "Translated by Salman AL-Shehri <al3azp@gmail.com>";
+}

@@ -1,0 +1,29 @@
+﻿{
+"Disabled inside Cydia." = "Disabled inside Cydia.";
+"cut" = "leikkaa";
+"copy" = "kopioi";
+"paste" = "sijoita";
+"stack" = "pino";
+"stacks" = "pinot";
+"close" = "sulje";
+"Cut" = "Leikkaa";
+"Copy" = "Kopioi";
+"Paste" = "Sijoita";
+"Stack" = "Pino";
+"Stacks" = "Pinot";
+"Close" = "Sulje";
+"Clippy Error" = "Clippy virhe";
+"Copied To Clipboard:" = "Kopioitu leikepöydälle:";
+"Copy To Clipboard:" = "Kopioi leikepöydälle:";
+"OK" = "OK";
+"Edit Stack" = "Muokkaa pinoa";
+"Clipboard Stack Is Empty" = "Leikepöydän pino on tyhjä";
+"Unable to send clipboard text!" = "Leikepöydän tekstiä ei pystytty lähettämään!";
+"Clippy Beta has expired." = "Clippy Beta on vanhentunut.";
+"Please upgrade" = "Ole hyvä ja päivitä";
+"Clipboard Stack" = "Leikepöytä pino";
+"Clear" = "Pyyhi";
+"Confirm" = "Vahvista";
+
+"$TRANSLATION_ABOUT_LABEL$" = "Translated by Niko Karranto <niko.karranto@mac.com>";
+}

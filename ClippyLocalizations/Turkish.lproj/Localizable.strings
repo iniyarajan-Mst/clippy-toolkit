@@ -1,0 +1,50 @@
+{
+"Cut" = "Kes";
+"Copy" = "Kopyala";
+"Paste" = "Yapıştır";
+"Stack" = "Pano";
+"Stacks" = "Pano";
+"Search" = "İnternette Ara";
+"Dial" = "Telefon Et";
+"Scroll to Top" = "En Üste Çık";
+"Scroll to Bottom" = "En Alta İn";
+"Scroll" = "Kaydırmalar";
+"Debug" = "Onar";
+"Debug Info" = "Onarım Bilgisi";
+"Close" = "Kapat";
+"OK" = "Tamam";
+"Clippy Error" = "Clippy Hatası";
+"Copied To Clipboard:" = "Panoya Kopyalanan :";
+"Copy To Clipboard:" = "Panoya Kopyala :";
+"Edit Stack" = "Panoya Bak";
+"Clipboard Stack Is Empty" = "Panoda Yapıştırılacak Öge Yok";
+"Unable to send clipboard text!" = "Pano ögesi gönderilemedi!";
+"Clippy Beta has expired." = "Clippy Beta'nın Süresi Doldu.";
+"Please upgrade" = "Lütfen Güncelleyin";
+"Upgrade" = "Güncelle";
+"Clipboard Stack" = "Panodaki Ögeler";
+"Clear" = "Temizle";
+"Confirm" = "Onayla";
+
+"Enabled Applications" = "Aktif Uygulamalar";
+"Native Apps" = "Normal Uygulamalar";
+"App Store Apps" = "AppStore Uygulamaları";
+"Post-selection Activation Sources" = "Bölge-Görev Ayarları";
+"Text Fields" = "Metin Bölgeleri";
+"Web Fields" = "Web Bölgeleri";
+"Hold Activation Sources" = "Aktifleştirme Ayarları";
+"Table Cells" = "Pano Hücreleri";
+"Labels" = "Basılınca Beyazlat";
+"Web Views" = "Web Sayfaları";
+".?123 on Keyboard" = "Klavyedeki .?123 Tuşu";
+"Hold Time" = "Basılı Tutma Süresi";
+"Animated" = "Animasyonlar";
+"Enabled Plugins" = "Aktif Eklentiler";
+"Respring for changes to take full effect." = "Lütfen 'Respring' yapın.";
+"Respring" = "Respring";
+"Respring Device" = "Respring Yap";
+"Preview" = "Önizleme";
+
+"© 2009 Ryan Petrich" = "© 2009 Ryan Petrich";
+"$TRANSLATION_ABOUT_LABEL$" = "Türkçeleştirme : M. Oğuz Çolakoğlu";
+}

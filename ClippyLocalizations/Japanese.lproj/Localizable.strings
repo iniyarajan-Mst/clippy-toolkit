@@ -1,0 +1,48 @@
+﻿{
+"Preview" = "プレビュー";
+"Cut" = "カット";
+"Copy" = "コピー";
+"Paste" = "ペースト";
+"Stack" = "スタック";
+"Stacks" = "スタック";
+"Search" = "検索";
+"Dial" = "電話";
+"Scroll to Top" = "最上部へ移動";
+"Scroll to Bottom" = "最下部へ移動";
+"Scroll" = "移動";
+"Debug" = "デバッグ";
+"Debug Info" = "デバッグ";
+"Close" = "閉じる";
+"OK" = "OK";
+"Clippy Error" = "エラー";
+"Copied To Clipboard:" = クリップボードにコピーしました:";
+"Copy To Clipboard:" = "クリップボードにコピー:";
+"Edit Stack" = "スタックを編集";
+"Clipboard Stack Is Empty" = "クリップボードは空です";
+"Unable to send clipboard text!" = "クリップボードはテキストを送れません!";
+"Clippy Beta has expired." = "Clippy Betaは期限切れです";
+"Please upgrade" = "アップグレードしてください";
+"Upgrade" = "アップグレード";
+"Clipboard Stack" = "クリップボードのスタック";
+"Clear" = "削除";
+"Confirm" = "決定";
+
+"Enabled Applications" = "有効にするアプリケーション";
+"Native Apps" = "ネイティブアプリ";
+"App Store Apps" = "App Storeのアプリ";
+"Post-selection Activation Sources" = "投稿時有効にする";
+"Text Fields" = "テキストフィールド";
+"Web Fields" = "ウェブフィールド";
+"Hold Activation Sources" = "Clippyのポップアップを出す";
+"Table Cells" = "表";
+"Labels" = "ラベル (実験中)";
+"Web Views" = "ウェブ";
+".?123 on Keyboard" = ".?123キーボード";
+"Hold Time" = "ポップアップが出るまでの時間";
+"Animated" = "アニメーション";
+"Enabled Plugins" = "有効なプラグイン";
+"Respring for changes to take full effect." = "変更を加えるためにRespringしてください";
+"Respring" = "Respring";
+
+"$TRANSLATION_ABOUT_LABEL$" = "ClippyはChatoによって日本語化されました。Clippyの日本語訳についてはchato2.00@gmail.comにメールを送ってください。";
+}

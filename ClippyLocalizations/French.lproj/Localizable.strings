@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Preview</key>
+	<string>Aperçu</string>
+	<key>Cut</key>
+	<string>Couper</string>
+	<key>Copy</key>
+	<string>Copier</string>
+	<key>Paste</key>
+	<string>Coller</string>
+	<key>Stack</key>
+	<string>Presse-Papier</string>
+	<key>Stacks</key>
+	<string>Presse-Papiers</string>
+	<key>Search</key>
+	<string>Chercher</string>
+	<key>Dial</key>
+	<string>Téléphoner</string>
+	<key>Scroll to Top</key>
+	<string>Défilement haut</string>
+	<key>Scroll to Bottom</key>
+	<string>Défilement bas</string>
+	<key>Scroll</key>
+	<string>Défiler</string>
+	<key>Debug</key>
+	<string>Debug</string>
+	<key>Debug Info</key>
+	<string>Debug Info</string>
+	<key>Close</key>
+	<string>Fermer</string>
+	<key>OK</key>
+	<string>OK</string>
+	<key>Clippy Error</key>
+	<string>Erreur Clippy</string>
+	<key>Copied To Clipboard:</key>
+	<string>Copié vers Presse-Papier:</string>
+	<key>Copy To Clipboard:</key>
+	<string>Copier vers Presse-Papier:</string>
+	<key>Edit Stack</key>
+	<string>Editer Presse-papier</string>
+	<key>Clipboard Stack Is Empty</key>
+	<string>Presse-Papier Vide</string>
+	<key>Unable to send clipboard text!</key>
+	<string>Impossible de copier le texte!</string>
+	<key>Clippy Beta has expired.</key>
+	<string>Clippy Beta a expiré.</string>
+	<key>Please upgrade</key>
+	<string>Merci faire une Mise à Jour</string>
+	<key>Upgrade</key>
+	<string>Mise à Jour</string>
+	<key>Clipboard Stack</key>
+	<string>Presse-Papier</string>
+	<key>Clear</key>
+	<string>Effacer</string>
+	<key>Confirm</key>
+	<string>Confirmer</string>
+	<key>Enabled Applications</key>
+	<string>Applications Activées</string>
+	<key>Native Apps</key>
+	<string>Apps Natives</string>
+	<key>App Store Apps</key>
+	<string>Applications App Store</string>
+	<key>Post-selection Activation Sources</key>
+	<string>Source d&apos;Activation Post-sélection</string>
+	<key>Text Fields</key>
+	<string>Champs texte</string>
+	<key>Text Views</key>
+	<string>Champs texte</string>
+	<key>Web Fields</key>
+	<string>Pages Web</string>
+	<key>Hold Activation Sources</key>
+	<string>Maintenir Sources d&apos;Activation</string>
+	<key>Table Cells</key>
+	<string>Champs Tableaux</string>
+	<key>Labels</key>
+	<string>Libellés</string>
+	<key>Web Views</key>
+	<string>Vues Web</string>
+	<key>.?123 on Keyboard</key>
+	<string>.?123 sur Clavier</string>
+	<key>Hold Time</key>
+	<string>Maintenir pendant</string>
+	<key>Animated</key>
+	<string>Animation</string>
+	<key>Enabled Plugins</key>
+	<string>Activer Plugins</string>
+	<key>Respring for changes to take full effect.</key>
+	<string>Respring pour valider les modifications.</string>
+	<key>Respring</key>
+	<string>Respring</string>
+	<key>Respring Device</key>
+	<string>Relancer SpringBoard</string>
+	<key>$TRANSLATION_ABOUT_LABEL$</key>
+	<string>Traduit par Dualcore &lt;dualcore@sosiphone.com&gt; Translated by Gil Serverius &lt;gil@severius.be&gt;</string>
+</dict>
+</plist>

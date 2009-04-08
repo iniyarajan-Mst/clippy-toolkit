@@ -1,0 +1,30 @@
+{
+"Disabled inside Cydia." = "Onemogočeno znotraj Cydie.";
+"cut" = "izreži";
+"copy" = "kopiraj";
+"paste" = "prilepi";
+"stack" = "sklad";
+"stacks" = "skladi";
+"close" = "zapri";
+"Cut" = "Izreži";
+"Copy" = "Kopiraj";
+"Paste" = "Prilepi";
+"Stack" = "Sklad";
+"Stacks" = "Skladi";
+"Close" = "Zapri";
+"Clippy Error" = "Clippy napaka";
+"Copied To Clipboard:" = "Kopirano na odložišče:";
+"Copy To Clipboard:" = "Kopiraj na odložišče:";
+"OK" = "OK";
+"Edit Stack" = "Uredi sklad";
+"Clipboard Stack Is Empty" = "Sklad odložišča je prazen";
+"Unable to send clipboard text!" = "Ne morem poslati besedila odložišča!";
+"Clippy Beta has expired." = "Clippy Beta je potekel rok.";
+"Please upgrade" = "Prosim nadgradi";
+"Clipboard Stack" = "Sklad odložišča";
+"Clear" = "Počisti";
+"Confirm" = "Potrdi";
+"Close" = "Zapri";
+
+"$TRANSLATION_ABOUT_LABEL$" = "Translated by Janez Rejec <janez.rejec@gmail.com>";
+}

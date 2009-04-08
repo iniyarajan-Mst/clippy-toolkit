@@ -1,0 +1,45 @@
+﻿{
+"Cut" = "剪下";
+"Scroll" = "捲動";
+"Scroll to Top" = "捲動至最上方";
+"Scroll to Bottom" = "捲動至最底部";
+"Copy" = "複製";
+"Paste" = "貼上";
+"Stack" = "剪貼簿";
+"Stacks" = "剪貼簿";
+"Search" = "搜尋";
+"Dial" = "撥號";
+"Close" = "關閉";
+"OK" = "確定";
+"Clippy Error" = "Clippy 錯誤";
+"Copied To Clipboard:" = "已複製至剪貼簿：";
+"Copy To Clipboard:" = "已複製至剪貼簿：";
+"Edit Stack" = "編輯剪貼簿";
+"Clipboard Stack Is Empty" = "剪貼簿為空白狀態";
+"Unable to send clipboard text!" = "無法貼上剪貼簿內文字！";
+"Clippy Beta has expired." = "Clippy 測試版已經過期。";
+"Please upgrade" = "請更新";
+"Upgrade" = "更新";
+"Clipboard Stack" = "剪貼簿";
+"Clear" = "清除";
+"Confirm" = "確認";
+
+"Enabled Applications" = "啟用程式";
+"Native Apps" = "原生程式";
+"App Store Apps" = "App Store 程式";
+"Post-selection Activation Sources" = "選擇啟動方式";
+"Text Fields" = "文字欄位";
+"Web Fields" = "網頁欄位";
+"Hold Activation Sources" = "常按啟動方式";
+"Table Cells" = "表格欄位";
+"Labels" = "標題";
+"Web Views" = "網頁檢視";
+".?123 on Keyboard" = ".?123 鍵";
+"Hold Time" = "延遲時間";
+"Animated" = "動畫效果";
+"Enabled Plugins" = "啟用外掛";
+"Respring for changes to take full effect." = "重新登入以套用變更。";
+"Respring" = "重新登入";
+
+"$TRANSLATION_ABOUT_LABEL$" = "由 Jerry Lee 翻譯： jerrylee@me.com";
+}
