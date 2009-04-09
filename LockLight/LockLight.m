@@ -7,7 +7,11 @@
 #include <objc/runtime.h>
 
 static UIWindow *whiteWindow;
+
 static float previousBacklight;
+
+static float previousDimDuration;
+static SBAwayController *awayController;
 
 #pragma mark SBAwayController
 
@@ -32,6 +36,10 @@ OCReplacement(void, SpringBoard, _menuButtonWasHeld)
 				else
 					previousBacklight = 0.5f;
 			}
+			// Cancel Dim timer
+			[awayController cancelDimTimer];
+			// Turn on screen
+			[self undim];
 			// Set Backlight
 			[self setBacklightLevel:1.0f];
 		}
@@ -48,25 +56,61 @@ OCReplacement(void, SpringBoard, menuButtonDown, GSEvent *gsEvent)
 		whiteWindow = nil;
 		// Return Backlight to previous state
 		[self setBacklightLevel:previousBacklight];
+		// Reenable Dim Timer on Away Controller
+		[awayController restartDimTimer:previousDimDuration];
 	}
 	OCSuper(SpringBoard, menuButtonDown, gsEvent);
+}
+
+OCReplacement(void, SpringBoard, lockButtonDown, GSEvent *gsEvent)
+{
+	if (whiteWindow) {
+		// Hide Window
+		[whiteWindow setHidden:YES];
+		[whiteWindow release];
+		whiteWindow = nil;
+		// Return Backlight to previous state
+		[self setBacklightLevel:previousBacklight];
+		// Reenable Dim Timer on Away Controller
+		[awayController restartDimTimer:previousDimDuration];
+	}
+	OCSuper(SpringBoard, lockButtonDown, gsEvent);
+}
+
+#pragma mark SBAwayController
+
+OCReplacement(void, SBAwayController, restartDimTimer, float duration)
+{
+	previousDimDuration = duration;
+	if (awayController != self) {
+		[awayController release];
+		awayController = [self retain];
+	}
+	OCSuper(SBAwayController, restartDimTimer, duration);
 }
 
 #pragma mark Initialization
 
 void LockLightInit()
 {
-	NSAutoreleasePool *pool = [NSAutoreleasePool new];
+	OCAutoreleasePoolForScope();
 
 	// SpringBoard
 	OCWithClass(OCLateClass(SpringBoard)) {
 		OCHook(_menuButtonWasHeld, SpringBoard, _menuButtonWasHeld);
 		OCHook(menuButtonDown:, SpringBoard, menuButtonDown);
+		OCHook(lockButtonDown:, SpringBoard, lockButtonDown);
 	}
 	OCCatchNilClass {
 		OCDebugLog(@"Could not load class: SpringBoard");
 	}
 	
-	[pool release];
+	// SBAwayController
+	OCWithClass(OCLateClass(SBAwayController)) {
+		OCHook(restartDimTimer:, SBAwayController, restartDimTimer);
+	}
+	OCCatchNilClass {
+		OCDebugLog(@"Could not load class: SBAwayController");
+	}	
 }
 
