@@ -53,6 +53,18 @@ static void PreferencesCallback(CFNotificationCenterRef center, void *observer, 
 
 #pragma mark SBSettings Toggle
 
+@interface UIApplication (RotationInhibitor)
++ (void)_dismissRotationInhibitorFromTimer:(NSTimer *)timer;
+@end
+
+@implementation UIApplication (RotationInhibitor)
++ (void)_dismissRotationInhibitorFromTimer:(NSTimer *)timer
+{
+	UIActionSheet *actionSheet = [timer userInfo];
+	[actionSheet dismissWithClickedButtonIndex:0 animated:YES];
+}
+@end
+
 BOOL isCapable()
 {
 	return YES;
@@ -84,6 +96,32 @@ void setState(BOOL enable)
 	notify_post(kSettingsChangeNotification);
 }
 
+static inline UIWindow *SBSettingsWindow()
+{
+	UIApplication *app = [UIApplication sharedApplication];
+	for (UIWindow *window in [app windows]) {
+		if ([window respondsToSelector:@selector(getCurrentTheme)])
+			return window;
+	}
+	return [app keyWindow];
+}
+
+static inline NSString *OrientationTitle()
+{
+	switch (desiredOrientation) {
+		case UIDeviceOrientationPortrait:
+			return @"Portrait";
+		case UIDeviceOrientationPortraitUpsideDown:
+			return @"Portrait Upside Down";
+		case UIDeviceOrientationLandscapeLeft:
+			return @"Landscape Left";
+		case UIDeviceOrientationLandscapeRight:
+			return @"Landscape Right";
+		default:
+			return @"Unknown Orientation";
+	}
+}
+
 void invokeHoldAction()
 {
 	HPPerformHapticFeedback(HPHapticFeedbackTypeRepeated);
@@ -97,6 +135,13 @@ void invokeHoldAction()
 	[dict writeToFile:@kSettingsFilePath atomically:YES];
 	[dict release];
 	notify_post(kSettingsChangeNotification);
+	// Show action sheet
+	UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:OrientationTitle() delegate:nil cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil];
+	[actionSheet setActionSheetStyle:UIBarStyleBlackTranslucent];
+	[actionSheet setDimsBackground:NO];
+	[actionSheet showInView:SBSettingsWindow()];
+	[NSTimer scheduledTimerWithTimeInterval:1.5f target:[UIApplication class] selector:@selector(_dismissRotationInhibitorFromTimer:) userInfo:actionSheet repeats:NO];
+	[actionSheet release];
 }
 
 #define OverrideOrientation(superValue) \
