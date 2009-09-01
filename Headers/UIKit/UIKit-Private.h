@@ -1,6 +1,10 @@
+#import "CandWord.h"
 #import "UIAccelerometer+Private.h"
+#import "UIActionSheet+Private.h"
 #import "UIAlertView+Private.h"
 #import "UIApplication+Private.h"
+#import "UICalloutBar.h"
+#import "UICalloutBarButton.h"
 #import "UIDevice+Private.h"
 #import "UIEvent+Private.h"
 #import "UIFieldEditor.h"
@@ -9,6 +13,7 @@
 #import "UIKeyboardEmojiPage.h"
 #import "UIKeyboardImpl.h"
 #import "UIKeyboardInput.h"
+#import "UIKeyboardInputManager.h"
 #import "UIKeyboardLayout.h"
 #import "UIKeyboardLayoutRoman.h"
 #import "UIKeyDefinition.h"
@@ -20,11 +25,24 @@
 #import "UIScroller.h"
 #import "UITable.h"
 #import "UITableCell.h"
+#import "UITextField+Private.h"
 #import "UITextView+Private.h"
 #import "UITextViewLegacy.h"
 #import "UIThreadSafeNode.h"
+#import "UITransitionView.h"
 #import "UIWebDocumentView.h"
 #import "UIWindow+Private.h"
 
-#define TouchesPointInView()	[(UITouch *)[touches anyObject] locationInView:self]
-#define TouchesPointInWindow()	[(UITouch *)[touches anyObject] locationInView:[self window]]
+#define TouchesGetLocationInView(touches, view) [(UITouch *)[touches anyObject] locationInView:view]
+#define TouchesPointInView()	TouchesGetLocationInView(touches, self)
+#define TouchesPointInWindow()	TouchesGetLocationInView(touches, [self window])
+
+
+// 3.0
+
+#import "UIKBKey.h"
+#import "UIKBShape.h"
+#import "UIKeyboardLayoutStar.h"
+#import "UIMenuController.h"
+#import "UITextEffectsWindow.h"
+#import "UIPasteboard.h"

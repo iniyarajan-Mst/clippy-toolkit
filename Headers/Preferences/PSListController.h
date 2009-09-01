@@ -44,4 +44,7 @@
 - (NSInteger)indexOfSpecifier:(PSSpecifier *)specifier;
 - (PSSpecifier *)specifierAtIndex:(NSInteger)index;
 
+- (NSArray *)loadSpecifiersFromPlistName:(NSString *)plistName target:(id)target;
+
+
 @end

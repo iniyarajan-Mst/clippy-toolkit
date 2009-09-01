@@ -3,8 +3,8 @@
 
 @interface WebView : WAKView
 - (WebElementDictionary *)elementAtPoint:(CGPoint)point;
-- (void)setSelectedDOMRange:(NSRange *)range affinity:(NSSelectionAffinity)affinity;
-- (NSRange *)selectedDOMRange;
+- (void)setSelectedDOMRange:(DOMRange *)range affinity:(NSSelectionAffinity)affinity;
+- (DOMRange *)selectedDOMRange;
 - (NSSelectionAffinity)selectionAffinity;
 - (id)_UIKitDelegate;
 @end

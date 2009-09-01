@@ -49,4 +49,6 @@
 - (id)querySelector:(id)fp8;
 - (id)querySelectorAll:(id)fp8;
 
+- (void)normalize;
+
 @end

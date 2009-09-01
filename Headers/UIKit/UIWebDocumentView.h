@@ -2,6 +2,8 @@
 #import <WebCore/WebCore.h>
 #import <WebKit/WebKit.h>
 
+@class DOMHTMLElement;
+
 @interface UITiledView : UIView
 {
     NSMutableArray *_rows;
@@ -170,9 +172,32 @@
 - (BOOL)cancelTouchTracking;
 - (void)cancelInteraction;
 
+- (void)setIsStandaloneEditableView:(BOOL)isStandaloneEditableView;
+- (BOOL)isStandaloneEditableView;
+- (void)setStandaloneEditingElement:(DOMHTMLElement *)standaloneEditingElement;
+- (DOMHTMLElement *)standaloneEditingElement;
+- (BOOL)_editable;
+- (void)_setEditable:(BOOL)_editable;
+- (BOOL)isFieldEditor;
+- (BOOL)isEditing;
+
+- (id)_parentTextView;
+- (void)_setParentTextView:(id)newValue;
+
 // Web View
 - (WebView *)webView;
 - (DOMNode *)approximateNodeAtViewportLocation:(CGPoint *)point;
 
+// iPhone OS 3.0
+- (void)redrawScaledDocument;
+- (void)removeAllTiles;
+- (void)layoutTilesNow;
+
+- (void)webViewDidChange:(WebView *)webView;
+- (void)keyboardInputChanged:(id)keyboardInput;
+
+- (DOMNode *)formElement;
+
+- (id<UITextInputTraits>)textInputTraits;
 
 @end

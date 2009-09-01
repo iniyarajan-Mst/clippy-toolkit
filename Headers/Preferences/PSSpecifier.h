@@ -1,5 +1,23 @@
 #import <Foundation/Foundation.h>
 
+typedef enum PSTableCellType {
+        PSGroupCell,            // 0
+        PSLinkCell,                     // 1
+        PSLinkListCell,         // 2
+        PSListItemCell,         // 3
+        PSTitleValueCell,       // 4
+        PSSliderCell,           // 5
+        PSSwitchCell,           // 6
+        PSStaticTextCell,       // 7
+        PSEditTextCell,         // 8
+        PSSegmentCell,          // 9
+        PSGiantIconCell,        // 10
+        PSGiantCell,            // 11
+        PSSecureEditTextCell,//12
+        PSButtonCell,           // 13
+        PSEditTextViewCell      // 14
+} PSSpecifierType;
+
 @interface PSSpecifier : NSObject
 {
     id target;

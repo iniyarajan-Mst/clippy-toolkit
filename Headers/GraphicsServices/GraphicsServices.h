@@ -35,8 +35,11 @@ typedef struct {
 	short int unk10;
 	struct GSPathPoint points[10];// 0 to numPoints-1
 } GSEvent;
-extern CGPoint GSEventGetLocationInWindow(GSEvent *event);
-extern UIDeviceOrientation GSEventDeviceOrientation(GSEvent *event);
+typedef struct GSEvent *GSEventRef;
+
+extern CGPoint GSEventGetLocationInWindow(GSEventRef event);
+extern UIDeviceOrientation GSEventDeviceOrientation(GSEventRef event);
+extern unsigned int GSEventGetType(GSEventRef event);
 
 typedef struct {
 	unsigned char pathIndex;
@@ -48,6 +51,10 @@ typedef struct {
 	void *pathWindow;
 } GSPathInfo;
 
-#define GSEventPointInView() [self convertPoint:GSEventGetLocationInWindow(gsEvent) fromView:[self window]]
-#define GSEventPointInWindow() GSEventGetLocationInWindow(gsEvent)
+#define GSEventPointInWindow() ((gsEvent)?GSEventGetLocationInWindow(gsEvent):(CGPoint){0.0f, 0.0f})
+#define GSEventPointInView() [self convertPoint:GSEventPointInWindow() fromView:[self window]]
+#define GSEventGetLocationInView(gsEvent, view) ({ \
+	UIView *GSEventGetLocationInView = view; \
+	[GSEventGetLocationInView convertPoint:GSEventGetLocationInWindow(gsEvent) fromView:[GSEventGetLocationInView window]]; \
+})
 
