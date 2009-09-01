@@ -17,7 +17,7 @@
 
 // Acts as a proxy for DOMNode and pretends to be one
 - (NSString *)description;
-- (BOOL)isKindOfClass:(Class)class;
+- (BOOL)isKindOfClass:(Class)class_type;
 - (BOOL)respondsToSelector:(SEL)sel;
 - (void)forwardInvocation:(id)invocation;
 - (id)methodSignatureForSelector:(SEL)sel;

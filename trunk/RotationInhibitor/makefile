@@ -1,19 +1,24 @@
 OBJECTS=Toggle
 TARGET=fs/Library/MobileSubstrate/DynamicLibraries/RotationInhibitor.dylib
-ENTRYPOINT=ToggleInit
 
-
+export NEXT_ROOT=/var/sdk
 
 COMPILER=arm-apple-darwin9-gcc
 
 LDFLAGS= \
 		-dynamiclib \
+		-Z \
+		-F/var/sdk/System/Library/Frameworks \
+		-F/var/sdk/System/Library/PrivateFrameworks \
+		-L/var/sdk/lib \
+		-L/var/sdk/usr/lib \
+		-L/usr/lib \
 		-Wall -Werror \
-		-framework CoreFoundation -framework Foundation -framework UIKit -framework GraphicsServices -lobjc -lsubstrate \
-		-F/System/Library/PrivateFrameworks \
-		-multiply_defined suppress
+		-framework Foundation -framework UIKit -framework CoreFoundation -framework GraphicsServices -lobjc -lsubstrate \
+		-multiply_defined suppress \
+		-Wl,-x,-single_module
 
-CFLAGS= -I/Projects/Headers -I/var/sdk/include -I/var/include \
+CFLAGS= -I/var/root/Headers -I/var/sdk/include -I/var/include \
 		-fno-common \
 		-g0 -O2 \
 		-std=c99
@@ -24,12 +29,11 @@ clean:
 		rm -f $(OBJECTS) $(TARGET)
 		rm -rf package
 
-%:	%.m Common.h
-		$(COMPILER) -c $(CFLAGS) -include Common.h $(filter %.m,$^) -o $@
+%:	%.m
+		$(COMPILER) -c $(CFLAGS) $(filter %.m,$^) -o $@
 
 $(TARGET): $(OBJECTS)
-		$(COMPILER) $(LDFLAGS) -init _$(ENTRYPOINT) -o $@ $^
-		strip -x $@
+		$(COMPILER) $(LDFLAGS) -o $@ $^
 		ldid -S $@
 		
 package: $(TARGET) control

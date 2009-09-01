@@ -11,6 +11,7 @@ struct AVControllerPrivate;
 
 + (id)avControllerWithQueue:(AVQueue *)queue error:(NSError **)error;
 - (id)initWithQueue:(AVQueue *)queue error:(NSError **)error;
+- (id)initWithQueue:(AVQueue *)queue fmpType:(NSUInteger)fmpType error:(NSError **)error;
 
 - (BOOL)play:(NSError **)error; // Is this right?
 - (BOOL)playNextItem:(NSError **)error; // Is this right?
@@ -29,6 +30,9 @@ struct AVControllerPrivate;
 
 - (id)delegate;
 - (void)setDelegate:(id)newDelegate;
+
+- (BOOL)setAttribute:(id)value forKey:(NSString *)key error:(NSError **)error;
+- (id)attributeForKey:(NSString *)key;
 
 @end
 

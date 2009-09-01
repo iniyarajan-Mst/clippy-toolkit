@@ -4,6 +4,7 @@
 @interface UIKeyboardImpl : UIView
 
 + (UIKeyboardImpl *)activeInstance;
++ (UIKeyboardImpl *)sharedInstance;
 
 - (void)updateLayout;
 - (id<UIKeyboardInput>)delegate;
@@ -15,6 +16,10 @@
 - (void)autoDeleteTimerFired:(NSTimer *)timer;
 - (void)startAutoDeleteTimer;
 - (void)stopAutoDelete;
+
+- (void)setChanged;
+
+- (BOOL)callShouldInsertText:(NSString *)text;
 
 @end
 

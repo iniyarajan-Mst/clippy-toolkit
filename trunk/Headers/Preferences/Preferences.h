@@ -1,3 +1,6 @@
 #import "PSListController.h"
 #import "PSViewController.h"
 #import "PSSpecifier.h"
+#import "PSBaseView.h"
+#import "PSRootController.h"
+#import "PSSetupController.h"
